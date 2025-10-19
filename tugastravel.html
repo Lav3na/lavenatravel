@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Travel Journal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #f7f8fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #ff7077;
+            color: white;
+            text-align: center;
+            padding: 1.2rem 0;
+            font-size: 1.8rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 2rem auto;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 1rem 1.5rem;
+        }
+
+        .location {
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #ff7077;
+            margin-bottom: 0.3rem;
+        }
+
+        .title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .date {
+            font-size: 0.9rem;
+            color: gray;
+            margin-bottom: 0.8rem;
+        }
+
+        .description {
+            font-size: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            color: gray;
+        }
+
+        @media (min-width: 700px) {
+            .card {
+                flex-direction: row;
+                height: 250px;
+            }
+
+            .card img {
+                width: 40%;
+                height: 100%;
+            }
+
+            .card-content {
+                width: 60%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>🌸 My Travel Journal Year 23/24 - Lavena🌸</header>
+
+    <div class="container">
+
+        <div class="card">
+            <img src="http://asset.japan.travel/image/upload/v1646014276/tokyo/H_00658_001.jpg" alt="Japan" />
+            <div class="card-content">
+                <p class="location">Japan</p>
+                <h2 class="title">Tokyo Adventures</h2>
+                <p class="date">January 2024</p>
+                <p class="description">Explored the lively streets of Shibuya, Tokyo, Osaka, Kyoto. My favorite things I did during my trips is skiing, tasted so many great food like the best sushi,yakitori and curry ever and the unlimited shopping spree! The cherry blossoms were in full bloom breathtaking! 🌸🍣</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Great wall of china.jpg" alt="China" />
+            <div class="card-content">
+                <p class="location">China</p>
+            <h2 class="title">The Great Wall of China</h2>
+                <p class="date">April 2024</p>
+                <p class="description">Visited the legendary Great Wall of China and felt so sore after climbing all those steps! During my trip, I explored Beijing, Shanghai, and Hangzhou. Each city had its own magic. Tried tons of new foods, joined fun local activities, and did a lot of shopping! 🛍️🍜 It was an adventure packed with culture, colors, and unforgettable moments. </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Sydney.jfif" alt="Australia" />
+            <div class="card-content">
+                <p class="location">Australia</p>
+                <h2 class="title">Winter Wonder in Sydney and Melbourne</h2>
+                <p class="date"> December 2023</p>
+                <p class="description">Even though it was winter, Australia was bursting with life! I got to meet the cutest kangaroos and cuddly koalas, visit the stunning Sydney Opera House, and explore so many fun spots around the city. The chilly breeze made every adventure feel cozy and calm definitely a trip I’ll never forget! 🐨💫🏙️</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>© 2025 My Travel Journal | Made by Lave</footer>
+</body>
+</html>
